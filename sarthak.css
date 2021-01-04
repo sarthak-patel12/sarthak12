@@ -64,16 +64,36 @@ img{
 	width:18%
 }
 
-/* skills */
-#skills{
+/* academicdetails */
+#academicdetails{
 	background-color: #000000;
 	color: white;
 }
 
-/* projects */
-#projects{
+/* internshipsandcertifications */
+#internshipsandcertifications{
 	background-color: #000000;
 	color: white;
+}
+
+/* personaldetails */
+#personaldetails{
+	background-color: #000000;
+	color: white;
+}
+
+/* footer */
+#tail{
+	background-color: teal;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.box1{
+	text-decoration: none;
+	color: white;
+	
 }
 
 /* all */
@@ -88,3 +108,4 @@ img{
 html{
 	scroll-behavior: smooth;
 }
+
