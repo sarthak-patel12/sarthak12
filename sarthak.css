@@ -1,0 +1,90 @@
+/* nav */
+header{
+	position: fixed;
+	width: 100%;
+	background-color: black;
+}
+
+.right{
+	float: left;
+	color: white;
+	font-size: 20px;
+	padding-top: 1%;
+	padding-left: 10%; 
+}
+
+h5{
+	font-style: normal;
+}
+.left{
+	float:right;
+	padding-right: 5%;
+}
+
+.bg-dark{
+	background-color: #000000 !important;
+	color: white !important;
+}
+.nav-link{
+	color: white !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 10%;
+}
+
+.navbar-brand{
+	padding-left: 10%;
+}
+
+
+.nav-link:hover{
+	background-color: white !important;
+	color: black !important;
+	border-radius: 10%;
+}
+
+
+/* home*/
+#home{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+img{
+	border-radius: 50%;
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+	width:18%
+}
+
+/* skills */
+#skills{
+	background-color: #000000;
+	color: white;
+}
+
+/* projects */
+#projects{
+	background-color: #000000;
+	color: white;
+}
+
+/* all */
+.continer{
+	padding-top: 60px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 60px;
+	position: static;
+}
+
+html{
+	scroll-behavior: smooth;
+}
